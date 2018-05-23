@@ -8,13 +8,15 @@ es:
       user:
         email: Tu correo electrónico
         name: Tu nombre
-        nickname: Su identificador corto y único
+        nickname: Alias/Nickname( Ejemplo.- juan.perez) 
         password: Contraseña
         password_confirmation: Confirma tu contraseña
         remove_avatar: Eliminar imagen de perfil
         user_group_document_number: Número de documento acreditativo
         user_group_name: Nombre de la Organización
         user_group_phone: Teléfono de la organización
+        personal_url: Url Personal
+        about: Acerca de mi
   activerecord:
     attributes:
       decidim/user:
@@ -403,7 +405,7 @@ es:
         notifications: Notificaciones
         profile: Mi cuenta
         public_profile: Mi perfil público
-        sign_out: Sal
+        sign_out: Salir
       user_profile:
         account: Cuenta
         authorizations: Autorizaciones

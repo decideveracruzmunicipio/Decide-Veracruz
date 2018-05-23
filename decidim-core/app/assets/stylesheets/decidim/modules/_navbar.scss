@@ -1,13 +1,13 @@
 /* Variables */
 
-$navbar-bg: $dark-gray;
-$navbar-bg-hover: rgba(white, .02);
-$navbar-color: rgba(white, .5);
+$navbar-bg: #364469;
+$navbar-bg-hover: rgba(63,78,116, 1);
+$navbar-color: rgba(white, 1);
 $navbar-color-hover: $white;
 $navbar-active-color: $white;
 $navbar-active-bg: $navbar-bg-hover;
-$navbar-active-shadow-small: inset 4px 0 0 0 $primary;
-$navbar-active-shadow-medium: inset 0 4px 0 0 $primary;
+$navbar-active-shadow-small: inset 4px 0 0 0 #93c842;
+$navbar-active-shadow-medium: inset 0 4px 0 0 #93c842;
 
 /* Navigation */
 
@@ -23,6 +23,18 @@ $navbar-active-shadow-medium: inset 0 4px 0 0 $primary;
   @include breakpoint(smallmedium down){
     border-top: 2.125rem solid $dark-gray;
   }
+}
+
+.my-title-bar{
+  background: #0f72b6;
+}
+
+.my-main-footer{
+  background: #1a181d !important;
+}
+
+.my-main-footer a{
+  color: #FFFFFF !important;
 }
 
 .logo-cityhall{
@@ -69,7 +81,7 @@ $navbar-active-shadow-medium: inset 0 4px 0 0 $primary;
     max-height: 33px;
 
     @include breakpoint(mediumlarge){
-      max-height: 45px;
+      max-height: 78px;
     }
   }
 }
@@ -112,7 +124,7 @@ $navbar-active-shadow-medium: inset 0 4px 0 0 $primary;
 
 //Foundation overwrites
 .topbar__dropmenu > ul > li > a{
-  color: $medium-gray;
+  color: #FFFFFF;
 
   &::after{
     margin-top: -1px !important;
@@ -181,11 +193,11 @@ $navbar-active-shadow-medium: inset 0 4px 0 0 $primary;
   line-height: 1.2;
 
   a{
-    color: $medium-gray;
+    color: #FFFFFF;
     font-weight: 600;
 
     &:hover{
-      color: $anchor-color;
+      color: #000000;
     }
   }
 
@@ -289,3 +301,10 @@ $navbar-active-shadow-medium: inset 0 4px 0 0 $primary;
     box-shadow: $navbar-active-shadow-medium;
   }
 }
+
+@media (min-width: 1071px) {
+	.not-top{
+		background-position: 0 -206px;
+	}
+}
+

@@ -90,7 +90,7 @@ $timeline-padding: 1rem;
 }
 
 .timeline__date{
-  color: $muted;
+  color: #FFFFFF !important;
 
   .timeline__item--current &{
     color: rgba($white, .8);
@@ -99,6 +99,7 @@ $timeline-padding: 1rem;
 
 .timeline__title{
   margin-bottom: 0;
+  color: #FFFFFF !important;
 }
 
 .timeline__content{

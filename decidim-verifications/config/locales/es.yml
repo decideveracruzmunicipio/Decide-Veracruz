@@ -9,6 +9,8 @@ es:
         document_type: Tipo de tu documento
         user: Usuario
         verification_attachment: Copia escaneada de tu documento
+      address:
+        full_address: Dirección completa como aparece en tu comprobante de domicilio (Luz, Agua, Teléfono, etc).
   decidim:
     admin:
       menu:
@@ -92,10 +94,10 @@ es:
           update:
             error: Hubo un problema al volver a subir tu documento
             success: El documento se ha resubido correctamente
-        dni: DNI
-        nie: NIE
-        passport: Pasaporte
-      postal_letter:
+        dni: CURP
+        nie: INE
+        passport: PASAPORTE
+      postal_letter: 
         admin:
           pending_authorizations:
             index:

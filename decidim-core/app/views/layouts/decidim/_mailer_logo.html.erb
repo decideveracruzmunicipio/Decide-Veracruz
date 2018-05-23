@@ -6,7 +6,7 @@
   <% end %>
   <%= link_to url do %>
     <% if organization.logo.present? %>
-      <%= image_tag organization.logo.medium.url, style: "max-height: 50px", alt: "" %>
+      <%= image_tag "http://decide.veracruzmunicipio.gob.mx#{organization.logo.medium.url}", style: "max-height: 50px", alt: "" %>
     <% else %>
       <span><%= organization.name %></span>
       <style>

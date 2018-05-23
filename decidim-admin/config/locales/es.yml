@@ -11,7 +11,7 @@ es:
         parent_id: Superior
       feature:
         name: Nombre
-        weight: Peso
+        weight: Lugar "#" del header del proceso
       id: ID
       newsletter:
         body: Cuerpo
@@ -57,10 +57,10 @@ es:
         end_date: Fecha de finalización
         hashtag: Hashtag
         hero_image: Imagen de portada
-        local_area: Áreas municipales
+        local_area: Área de Organización
         meta_scope: 'Metadatos: ámbito'
         participatory_scope: Ámbito participativo
-        participatory_structure: Estructura participativa
+        participatory_structure: ¿Cómo se decide?
         promoted: Destacado
         scope: Ámbito
         short_description: Descripción breve

@@ -26,7 +26,7 @@ describe "Postal letter code request", type: :system do
 
   context "when requesting a code by postal letter" do
     before do
-      fill_in "Full address", with: "C/ Milhouse, 3, 00000, Springfield (Monaco)"
+      fill_in "Dirección", with: "C/ Milhouse, 3, 00000, Springfield (Monaco)"
       click_button "Send me a letter"
     end
 

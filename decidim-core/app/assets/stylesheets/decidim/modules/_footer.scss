@@ -6,13 +6,13 @@ $mini-footer-bg: $dark-gray;
 
 .main-footer,
 .mini-footer{
-  color: $medium-gray;
+  color: #FFFFFF;
 
   a{
-    color: darken($medium-gray, 40%);
+    color: #FFFFFF;
 
     &:hover{
-      color: darken($medium-gray, 20%);
+      
     }
   }
 }

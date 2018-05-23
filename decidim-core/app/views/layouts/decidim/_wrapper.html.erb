@@ -18,9 +18,9 @@
         <!--separates the footer from the rest of the page,
              creates a sticky footer-->
         <!-- Topbar -->
-        <div class="title-bar">
+        <div class="title-bar my-title-bar">
           <% if current_organization.official_img_header? %>
-            <%= link_to  current_organization.official_url, class: "logo-cityhall" do %>
+            <%= link_to  current_organization.official_url, class: "logo-cityhall", :target => "_blank" do %>
               <%= image_tag current_organization.official_img_header.url.to_s , alt: current_organization.name %>
             <% end %>
           <% end %>
@@ -80,7 +80,7 @@
           <%= yield %>
         </main>
       </div><!-- /.footer-separator -->
-      <div class="main-footer">
+      <div class="main-footer my-main-footer">
         <% if current_organization.official_img_footer? %>
           <%= link_to  current_organization.official_url, class: "main-footer__badge" do %>
             <%= image_tag current_organization.official_img_footer.url.to_s , alt: current_organization.name %>
