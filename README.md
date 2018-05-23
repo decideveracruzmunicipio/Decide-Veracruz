@@ -1,4 +1,4 @@
-<img src="https://cdn.rawgit.com/decidim/decidim/master/logo.svg" alt="Decidim Logo" width="400">
+<img src="http://decide.veracruzmunicipio.gob.mx/uploads/decidim/organization/logo/1/LogoDecideVeracruz_400x78.png" alt="Decidim Logo" width="400">
 
 The participatory democracy framework.
 
